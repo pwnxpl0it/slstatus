@@ -68,5 +68,5 @@ static const struct arg args[] = {
 	{ cpu_perc, ": %2s%% ", NULL },
 	{ ram_perc, "| RAM: %2s%% ", NULL },
 	{ run_command, "|  %s%% ", "/bin/sh -c \"amixer get Master | tail -n1 | grep -Po '\\[\\K[^%]*' | head -n1\"" },
-	{ datetime, "%s ", "|  %a %e %B  %R" },
+	{ datetime, "%s ", "|  %a %e %B  %I:%M %p" },
 };
